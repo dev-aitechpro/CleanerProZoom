@@ -1,0 +1,44 @@
+﻿# ============================================
+# .gitignore для CleanerProZoom (.NET 8)
+# ============================================
+
+## Папки сборки - ГЛАВНОЕ!
+bin/
+obj/
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.csproj.user
+*.sln.docstates
+
+## Отладочные файлы
+*.pdb
+*.cache
+*.log
+*.tmp
+*.deps.json
+*.runtimeconfig.json
+
+## NuGet
+packages/
+*.nupkg
+*.snupkg
+project.assets.json
+project.nuget.cache
+
+## Результаты тестов
+TestResults/
+*.trx
+*.coverage
+
+## Системные файлы
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+## Редакторы
+.vscode/
+.idea/
+_ReSharper*/
