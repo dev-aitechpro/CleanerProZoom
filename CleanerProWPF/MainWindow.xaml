@@ -104,13 +104,8 @@
 
                             <!-- Социальные сети -->
                             <WrapPanel>
-                                <Button Content="Telegram" Style="{StaticResource SocialButtonStyle}" Margin="0,0,6,6" Click="SocialButton_Click" Tag="https://t.me/pavel_daily2"/>
-                                <Button Content="Telegram SOFT" Style="{StaticResource SocialButtonStyle}" Margin="0,0,6,6" Click="SocialButton_Click" Tag="https://t.me/pavel_daily2free_soft"/>
-                                <Button Content="GitHub" Style="{StaticResource SocialButtonStyle}" Margin="0,0,6,6" Click="SocialButton_Click" Tag="https://github.com/illitiystud-dot"/>
-                                <Button Content="TikTok" Style="{StaticResource SocialButtonStyle}" Margin="0,0,6,6" Click="SocialButton_Click" Tag="https://www.tiktok.com/@pavel_daily1"/>
-                                <Button Content="YouTube" Style="{StaticResource SocialButtonStyle}" Margin="0,0,6,6" Click="SocialButton_Click" Tag="https://www.youtube.com/@pavel_daily2"/>
-                                <Button Content="Поддержать #1" Style="{StaticResource SocialButtonStyle}" Margin="0,0,6,6" Click="SocialButton_Click" Tag="https://boosty.to/kpavels1997/donate"/>
-                                <Button Content="Поддержать #2" Style="{StaticResource SocialButtonStyle}" Margin="0,0,6,6" Click="SocialButton_Click" Tag="https://vk.ru/pavel_daily2?analytics_screen=group&amp;source=donut_banner&amp;w=donut_payment-238984850"/>
+                                <Button Content="Telegram" Style="{StaticResource SocialButtonStyle}" Margin="0,0,6,6" Click="SocialButton_Click" Tag="https://t.me/dev_aitech"/>
+                                <Button Content="Поддержать" Style="{StaticResource SocialButtonStyle}" Margin="0,0,6,6" Click="SocialButton_Click" Tag="https://boosty.to/kpavels1997/donate"/>
                             </WrapPanel>
                         </StackPanel>
                     </ScrollViewer>
@@ -293,7 +288,7 @@
                         </Grid>
 
                         <!-- Копирайт -->
-                        <TextBlock Grid.Row="3" Text="© 2026 Pavel Daily. Все права защищены." 
+                        <TextBlock Grid.Row="3" Text="© 2026 Нейрокод | Neuralis (Dev_Ai Tech). Все права защищены." 
                                    HorizontalAlignment="Center" FontSize="11" Foreground="#8a94a6" 
                                    Opacity="0.5" Margin="0,53,0,-16"/>
                     </Grid>
